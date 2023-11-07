@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agency</title>
+    <link rel="icon" href="title-image.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="agency.css">
+  </head>
+    <body>
+      <div class="preloader">
+        <div class="spinner"></div>
+      </div>
+      <canvas id="canvas3d"></canvas>
+      <div class="body">
+        <nav class="navbar">
+          <div class="navbar-toggle" id="navbarToggle">
+              <iconify-icon icon="ep:menu"></iconify-icon>
+          </div>
+          <div class="brand">Agency</div>
+          <ul class="nav-links" id="navLinks">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact</a></li>
+          </ul>
+      </nav>
+      <canvas id="canvas3d"></canvas>
+      <div class="overlay" id="overlay"></div>
+    
+    
+      <section class="hero" id="home">
+    
+          <div class="hero-content">
+    
+            <p class="hero-subtitle">We Are Product Designer From USA</p>
+    
+            <h2 class="h2 hero-title">We Design Interfaces That Users Love</h2>
+    
+            <p class="hero-text">
+              Crafting interfaces that captivate users, combining aesthetics and functionality for an unforgettable digital experience.
+            </p>
+    
+            <button class="btn">Learn More</button>
+    
+          </div>
+          <div class="footer">
+            <div class="box">
+              <iconify-icon icon="raphael:facebook" width="20" height="20"></iconify-icon>
+            </div>
+    
+            <div class="box">
+              <iconify-icon icon="ri:instagram-fill" width="23" height="21"></iconify-icon>
+            </div>
+    
+            <div class="box">
+              <iconify-icon icon="fa:twitter-square" width="23" height="19"></iconify-icon>
+            </div>
+    
+            <div class="box">
+              <iconify-icon icon="fa-brands:whatsapp-square" width="24" height="21"></iconify-icon>
+            </div>
+          </div>
+        </section>
+          
+      </div>
+   
+ 
+    <script type="module">
+      import { Application } from './runtime.js';
+      const canvas = document.getElementById('canvas3d');
+      const app = new Application(canvas);
+      app.load('./scene.splinecode');
+    </script>
+     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>  
+  <script src="script.js"></script>
+    </body>
+</html>
+  
