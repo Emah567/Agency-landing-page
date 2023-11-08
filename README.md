@@ -14,9 +14,9 @@ This project is a 3D agency landing page created using HTML, CSS, JavaScript, an
 
 ## Demo
 
-You can view a live demo of the 3D agency landing page [here](#).
+You can view a live demo of the 3D agency landing page [here](https://agency-landingpage.vercel.app/).
 
-![3D Agency Landing Page](screenshot.png)
+![(https://agency-landingpage.vercel.app/)](screenshot.png)
 
 ## Features
 
@@ -33,11 +33,4 @@ You can view a live demo of the 3D agency landing page [here](#).
 - JavaScript
 - [Spline](https://spline.design/) (for creating 3D content)
 
-## Setup
 
-To set up this project locally, follow these steps:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/3d-agency-landing-page.git
